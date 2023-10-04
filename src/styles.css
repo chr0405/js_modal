@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+}
+
+.modal_bg {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal_box {
+  position: fixed;
+
+  top: 200px;
+  left: 150px;
+
+  width: 60%;
+  height: 30%;
+
+  background-color: white;
+  border-radius: 10px;
+}
+
+#hi,
+#introduce {
+  position: relative;
+  left: 20px;
+}
+
+#close {
+  position: relative;
+  left: 300px;
+}
